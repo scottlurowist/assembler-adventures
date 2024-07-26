@@ -26,3 +26,9 @@ The program finds the maximum value in the list. It shows how to use the `.data`
 ### 03-power
 
 Now the fun begins as functions are employed. This program finds the solution to 2^3 + 5^2.
+
+***
+### 04-factorial
+
+03-power introduced functions. Now we raise the stakes and introduce recursion into the mix.
+This also demonstrates how to make a function visible to the linker using `.globl`.
