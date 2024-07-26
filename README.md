@@ -14,21 +14,22 @@ Type: `echo $?` in order to see the output as most of the programs do not write 
 ### 01-exit
 
 This program is a few notches above "Hello World!". It shows how to exit from a 32-bit Linux 
-program.
+program. This program can be found on pages 19-20 in chapter 3.
 
 ***
 ### 02-maximum
 
 This program shows how to use an array. The array contains a list of numbers that are not sorted.
-The program finds the maximum value in the list. It shows how to use the `.data` section and how to use `loops`.
+The program finds the maximum value in the list. Loops are demonstrated. The program shows how to use the `.data` section and how to use `loops`. This program may be found on pages 31-33 in chapter 3.
 
 ***
 ### 03-power
 
-Now the fun begins as functions are employed. This program finds the solution to 2^3 + 5^2.
+Now the fun begins as functions are employed. This program finds the solution to 2^3 + 5^2. The program may be found on pages 59-61 in chapter 4.
 
 ***
 ### 04-factorial
 
 03-power introduced functions. Now we raise the stakes and introduce recursion into the mix.
-This also demonstrates how to make a function visible to the linker using `.globl`.
+This also demonstrates how to make a function visible to the linker using `.globl`. This program may
+be found on pages 65-67 in chapter 4.
