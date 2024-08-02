@@ -206,7 +206,15 @@ convert_loop:
 # go to the next byte unless it is between 'a' and 'z'
     cmpb $LOWERCASE_A, %cl
     jl   next_byte
-    cmpb $LOWERCASE_Z, %cl
+    cmpb $LOWERCA
+    
+    
+    
+    
+    
+    
+    
+    SE_Z, %cl
     jg   next_byte
 
 # otherwise convert the byte to uppercase
